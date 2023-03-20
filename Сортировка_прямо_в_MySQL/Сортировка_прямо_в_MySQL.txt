@@ -1,0 +1,18 @@
+Для получения отсортированного списка комментариев прямо в MySQL
+Пишется запрос:
+
+SELECT * FROM srv67676_csg.comment order by rating DESC, id DESC;
+
+Параметры подключения к базе данных 
+
+datasource.url
+
+	jdbc:mysql://mysql-srv67676.hts.ru:3306/srv67676_csg?useSSL=false
+
+username
+
+	srv67676_cs
+
+password
+
+	N'4b2d$^+:x99Lg
